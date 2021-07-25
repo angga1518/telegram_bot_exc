@@ -7,6 +7,10 @@ API_KEY = '1900563339:AAHAYO6qrQy-EuOV46pVYoSY-cbAg6wWXqY'
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logging.info('Starting Bot...')
 
+#inside create.py
+def main():
+  pass
+
 def start_command(update, context):
     response.reset_message()
     update.message.reply_text('Hello there! I\'m a ROX Profit bot. What\'s up?')
